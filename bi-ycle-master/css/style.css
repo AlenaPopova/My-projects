@@ -162,11 +162,22 @@ box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
 }
 
 .navigation-item:hover{
-	background-color: pink;
+	background-color: yellow;
+	padding: 10px 5px 10px 0px;
+	border-radius: 5px;
 }
+
+
+
+
 
 .nav-option {
 	color: white;
+	padding: 0px 10px;
+}
+
+.nav-option:hover {
+	color: black;
 }
 
 
@@ -179,7 +190,7 @@ box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
 	width: 150px;
 	color: black;
 	position: absolute;
-	top: 40px;
+	top: 30px;
 }
 
 .sub-menu-item {
@@ -485,10 +496,9 @@ p .colortext {
 	background-size: cover; /*чтобы  фоновая картинка растягивалась на всю ширину*/
 }
 
+.contact-form{
 	margin: 0;
 	padding: 0;
-	padding-top: 63px;
-
 	text-align: center;
 	font-weight: bold;
 }
